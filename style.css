@@ -95,3 +95,35 @@ h1{
 .dashboard a:hover{
     background:#334155;
 }
+.profile-card{
+    background:white;
+    width:350px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+}
+.settings-card{
+    background:white;
+    width:350px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.settings-card input{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid gray;
+}
+
+.settings-card button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#1877f2;
+    color:white;
+    cursor:pointer;
+}
