@@ -3,6 +3,7 @@
 <head>
     <title>Settings</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -15,27 +16,25 @@
     <a href="profile.html">👤 Profile</a>
     <a href="settings.html">⚙ Settings</a>
 </div>
-
 <div class="settings-card">
     <h2>Settings</h2>
 
     <label>Username</label>
-    <input type="text" placeholder="Enter Username">
+    <input type="text" id="settings-username" placeholder="Enter Username">
 
     <br><br>
 
     <label>Email</label>
-    <input type="email" placeholder="Enter Email">
+    <input type="email" id="settings-email" placeholder="Enter Email">
 
     <br><br>
 
     <label>Password</label>
-    <input type="password" placeholder="Enter Password">
+    <input type="password" id="settings-password" placeholder="Enter Password">
 
     <br><br>
 
-    <button>Save Changes</button>
+    <button onclick="validateAndSave()">Save Changes</button>
 </div>
-
 </body>
 </html>
