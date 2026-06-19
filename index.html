@@ -3,6 +3,7 @@
 <head>
     <title>Mini Social Media Application</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -11,19 +12,23 @@
     <h1>Dashboard</h1>
     <hr>
 
-    <a href="index.html">🏠 Home</a>
-    <a href="profile.html">👤 Profile</a>
-    <a href="settings.html">⚙ Settings</a>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="settings.html">Settings</a>
 </div>
 
     <h1>Welcome to Mini Social Media Application</h1>
 
     <div class="feed">
         <h2>Create Post</h2>
-        <input type="text" placeholder="What's on your mind?">
+        <input type="text" id="post-input" placeholder="What's on your mind?">
         <button>Post</button>
     </div>
-
+<div class="feed">
+    <h2>Trending Topics</h2>
+    <p id="slider">Anime News</p> 
+    <button onclick="nextSlide()">Next Topic</button>
+</div>
     <br>
 
     <div class="post">
@@ -31,12 +36,12 @@
         <hr>
 
         <strong>@Yeswanth</strong>
-        <p>One Piece is the best anime 🔥</p>
+        <p>One Piece is the best anime</p>
 
         <hr>
 
         <strong>@Yuno</strong>
-        <p>Naruto is the best anime 🍥</p>
+        <p>Naruto is the best anime</p>
     </div>
 
     <div class="profile">
