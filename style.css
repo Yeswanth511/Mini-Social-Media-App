@@ -127,3 +127,14 @@ h1{
     color:white;
     cursor:pointer;
 }
+#slider {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e293b;
+    margin: 10px 0;
+    text-align: center;
+}
+.error-input {
+    border: 2px solid #ef4444 !important;
+    background-color: #fef2f2;
+}
